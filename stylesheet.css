@@ -1,0 +1,139 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  background-color: #e0e0e0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  height: 100px;
+  width: 100%;
+  background-color: coral;
+}
+.logo{
+  margin: 20px;
+  height: 40px;
+  width: 40px;
+}
+.about{
+  display: flex;
+  list-style-type: none;
+ 
+}
+li{
+  margin: 15px 5px;
+}
+
+a{
+  /* display: flex; */
+ text-decoration: none;
+ /* justify-content: space-between;
+ align-items: flex-end; */
+ font-size: 20px;
+}
+.sect1{
+/* height: 400px; */
+width: 100%;
+/* margin-top: -20px; */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+.working{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+
+}
+.first{
+  height: 300px;
+  width: 100% 
+  /* max-width: 200px; */
+
+
+}
+/* @media only screen and (max-width: 600px){
+   .text{
+     max-width: 100%;
+   }
+} */
+.text{
+ max-width: 300px;
+}
+@media only screen and (max-width:600px) {
+  .text{
+    max-width: 500px;
+   }
+   .working{
+     visibility: hidden;
+     height: 0px;
+   }
+}
+
+.space{
+  width: 20px;
+  height: 5px;
+  background-color: aqua;
+  margin: 40px;
+}
+ 
+
+section{
+  width: 100%;
+ background-color: white;
+  align-items: center;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.box1{
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  max-width: 250px;
+
+}
+
+.me{
+  background-color: blue;
+  width: 90px;
+  height: 90px;
+  border-radius: 30px;
+  padding:2px ;
+}
+
+#sa{
+  height: 65px;
+  width:65px ;
+  margin: 10px;
+
+}
+.test{
+
+  background-color: red;
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+  /* padding: 50px; */
+}
+.button{
+  background-color: yellow;
+  text-decoration-color: red;
+  color: red;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+.button:hover{
+  height: 40px;
+  width: 100px;
+  background-color: crimson;
+}
+.button:active{
+    box-shadow: inset -6px -6px 3px rgba(255,255,255, 0.6);
+    color: purple;
+  }
+.input-section{
+  padding: 5px;
+}
